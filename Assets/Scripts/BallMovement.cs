@@ -25,7 +25,7 @@ public class BallMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Paddle"))
+        if (collision.gameObject.CompareTag("Player"))
         {
             // Add slight variation to bounce direction
             float newX = (transform.position.x - collision.transform.position.x);

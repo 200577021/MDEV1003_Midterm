@@ -11,6 +11,11 @@ public class StartController : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 
-    // Update is called once per frame
+    public void ResetBtnClicked()
+    {
+        //Load Level 1
+        SceneManager.LoadScene("Start");
+    }
+
     
 }
