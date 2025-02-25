@@ -5,9 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ball
-  - Brick
   - CollisionBoundary
   - UncollisionBoundary
+  - Top
+  - BrickB
+  - BrickG
+  - BrickW
   layers:
   - Default
   - TransparentFX
