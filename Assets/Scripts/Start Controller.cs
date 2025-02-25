@@ -13,7 +13,8 @@ public class StartController : MonoBehaviour
     public void ResetBtnClicked()
     {
         //Load Start
-        SceneManager.LoadScene("Start");
+      SceneManager.LoadScene("Start");
+        
     }
 
     
